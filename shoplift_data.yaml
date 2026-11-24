@@ -1,0 +1,8 @@
+path: C:\Users\Focus Computer\Downloads\shoplifting.v1i.yolov8  # Root folder
+train: train/images
+val: val/images
+nc: 2  # Number of classes (based on "steal" and "not-steal" from the dataset)
+names:
+  0: not-steal
+  1: steal
+kpt_shape: [17, 3]  # Optional for keypoints if your dataset has them
